@@ -3,26 +3,27 @@ mainColor:#08526d
 seconedColor:#ec1c23
 */
 /* Start Upper Bar */ 
-.upper_bar{
-background-color:#08526d;
-padding: 10px;
-color: white;
+h1,h2,h3,h4,h5,h6{
+    color: #08526d;
+} 
+ body {
+      position: relative; 
+  }
+/* scrollinc style */
+.smart-scroll{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  background-color: white;
 }
-.upper_bar span {
-    color: #bfc6c9;
+.scrolled-down{
+   transform:translateY(-100%); transition: all 0.3s ease-in-out;
 }
-.upper_bar .container .row .right{
- color: #eeeeee;
- margin-left: auto !important;
+.scrolled-up{
+   transform:translateY(0); transition: all 0.3s ease-in-out;
 }
-.upper_bar .get-quote{
-    margin-left: 20px;
-    padding: 2px 10px;
-   border: 1px solid #ec1c23;
-   cursor: pointer;
-   }
-
-
 /* Start NavBar */
 .navbar-brand{
     padding:  8px;
@@ -44,8 +45,9 @@ color: white;
      color: #08526d;
      font-weight: 300px;
 }
-.navbar-nav .active > .nav-link{
-    color: #ec1c23 !important;
+
+.nav-link.active {
+  color: #ec1c23 !important;
 }
 /* Start Slider */
 .slider{
@@ -107,13 +109,13 @@ color: white;
     font-size: 23px;
 }
 .features p {
-    color: #808080;
+      color: #6a6a6a;
     font-size: 18px;
     margin-bottom: 35px;
 }
 /* Start overview */
 .overview{
-   padding: 60px 0;
+   padding: 40px 0;
     background-color: #f0f5f7;
    
 }
@@ -148,13 +150,15 @@ color: white;
     border: 1px solid #ed1d24 ;
 }
 /* Start samples */
+.samples{
+    padding: 40 0;
+}
 .samples .container h2{
     color:#08526d ;
     font-size: 40px;
     text-transform: uppercase;
     font-weight: bold;
     margin-bottom: 30px;
-    margin-top: 20px;
 }
 .samples .container p{
     font-size: 18px;
@@ -243,7 +247,7 @@ color: white;
 }
 /* Start Blogs */
 .blogs{
-        padding: 60px 0;
+        padding: 40px 0;
     background-color: #f0f5f7;
 }
 .blogs .container h2{
@@ -277,4 +281,194 @@ color: white;
     font-size: 18px;
     font-weight: bold;
     border: 1px solid #ed1d24 ;
+}
+/* Contact me*/
+
+.contact-me .container h2{
+   color:#08526d ;
+   font-size: 40px;
+   text-transform: uppercase;
+   font-weight: bold;
+   margin-top: 30px;
+   margin-bottom: 30px;
+}
+.contact-me .container .social{
+     margin-right: 20px;
+}
+
+
+.contact-me .container .social .my-pic{
+    padding: 0 20;
+    text-align: end;
+   
+}
+.contact-me .container .social .my-pic img{
+width: 170px;
+height: 170px;
+}
+.contact-me .container .social .info{
+    padding: 0;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.contact-me .container .social h4{
+   margin-top: 10px;
+   text-align: start;
+}
+.contact-me .container .social .info p{
+      color: #6a6a6a;
+    margin-bottom: 10px;
+    text-align: start;
+}
+
+.contact-me .container .social-icons {
+    padding: 30px 0;
+}
+.contact-me .container .social-icons h5{
+    color:#08526d ;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.contact-me .container .social-icons  ul{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    list-style-type: none;
+   text-align: center;
+    padding: 0;
+
+}
+.contact-me .container .social-icons ul li {
+    margin-right: 10px;
+    margin-left: 10px;
+    display: inline-block;
+    border-radius: 60px;
+    box-shadow: 0px 0px 2px #08526d;
+    padding: 0.5em 0.6em;
+}
+.contact-me .container .social-icons  ul li a{
+    font-size: 36px;
+    cursor: pointer;
+}
+
+ .mail form{
+    width: 100%;
+     padding: 10px;
+     border: 2px solid #08526d;
+     border-radius: 8px;
+ }
+
+ .mail form .form-control{
+     padding: 10px;
+     width: 100%;
+     background: transparent;
+     border: none;
+     outline: none;
+     border-bottom: 1px solid   #131633;;
+     color: #131633;
+     font-size: 18px;
+     margin-bottom: 10px;
+ }
+ .mail form  input{
+     height: 45px;
+ }
+ .mail form .submit{
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #131633;
+    font-size: 18px;
+    margin-top: 20px;
+     color: white;
+     background-color:#08526d ;
+     letter-spacing: 2px;
+}
+.mail form .submit:hover{
+    background-color: #ec1c23;
+        color: white;
+        cursor: pointer;
+}
+
+footer{
+        background-color: #08526d;
+    color: white;
+    background: linear-gradient( to bottom,#08526d,rgb(22, 77, 109) 100%);
+}
+footer hr {
+color: #ffffff;
+margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-top: 1px solid
+}
+footer h6{
+    color: #ffffff;
+}
+footer a {
+  text-decoration: none;
+  color: #ffffff;
+}
+footer a:hover {
+  text-decoration: none;
+ color:#ec1c23 ;
+
+}
+footer span {
+ color:#ec1c23 ;
+}
+
+@media(max-width: 1000px)
+{
+   .slider .carousel-inner h1 {
+       margin-top: 10px;
+    font-size: 35;
+}
+.overview .container h2 {
+   font-size: 35;
+}
+.samples .container h2 {
+    font-size: 35px; 
+}
+.overview .container p {
+    font-size: 18px;
+    line-height: 1.5;
+
+}
+.blogs .container h2 {
+    font-size: 35px; 
+}
+.contact-me .container h2 {
+    font-size:35px;
+  
+}
+    .contact-me .container .social .my-pic{
+    padding: 0 10;
+    text-align: center;
+   
+}
+        .contact-me .container .social .my-pic img{
+width: 140px;
+height: 140px;
+}
+    .contact-me .container .social h4{
+   margin-top: 10px;
+   text-align: center;
+}
+.contact-me .container .social .info p{
+    margin-bottom: 10px;
+    text-align: center;
+}
+    .contact-me .container .social .info{
+            padding: 0;
+    text-align: center;
+    margin: 0;
+    }
+    .contact-me .container .social-icons {
+    padding:  10 0;
+}
+.contact-me .container .social-icons ul li {
+    margin-left: 5px;
+}
+
 }

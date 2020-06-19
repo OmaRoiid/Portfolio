@@ -4,27 +4,15 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Bootstrap </title>
+  <title>Omar Salem </title>
+  <link rel="shortcut icon " type="image/ico" href="img/logo.png">
   <link rel="stylesheet" href="./css/bootstrap.min.css">
   <link rel="stylesheet" href="./css/style.css">
 </head>
-<body>
-  <!--Upper_bar-->
-  <div class="upper_bar" id="upper">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm left">
-          <i class="fa fa-phone"></i> <span>+201100634348,</span> <i class="fa fa-envelope"></i>
-          <span>bnSalem.com</span>
-        </div>
-        <div class="col-sm right">
-          <span>Let's Work Togeather,</span> <span class="get-quote">Contact Me</span>
-        </div>
-      </div>
-    </div>
-  </div>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="150">
   <!--NavBar-->
-  <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
+  <nav class="navbar smart-scroll navbar-expand-lg navbar-light fixed-top" id="navbar">
     <div class="container">
       <a class="navbar-brand" href="#"> <span class="first">Omar</span> <span class="second">Salem</span></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav"
@@ -34,26 +22,26 @@
       <div class="collapse navbar-collapse" id="main_nav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#">Home </a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#slider">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Work</a>
+            <a class="nav-link" href="#overview">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Blog</a>
+            <a class="nav-link" href="#samples">Samples</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact me</a>
+            <a class="nav-link" href="#blog">Blogs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact me</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
   <!--Slider-->
-  <div class="slider">
+  <div class="slider" id="slider">
     <div id="main_slider" class="carousel slider" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#main_slider" data-slide-to="0" class="active">
@@ -67,26 +55,26 @@
         <h1>Creating a <span>Software</span> For Your Pleasure</h1>
         <div class="overlay"></div>
         <div class="carousel-item carousel_one active">
-          <img src="./img/background_1.jpg" alt="Los Angeles" style="width:100%;">
+          <img src="./img/background_1.jpg" alt="About section background one" style="width:100%;">
         </div>
         <div class="carousel-item carousel_two">
-          <img src="./img/background_2.jpg" alt="Los Angeles" style="width:100%;">
+          <img src="./img/background_2.jpg" alt="About section background two" style="width:100%;">
         </div>
         <div class="carousel-item carousel_three">
-          <img src="./img/background_3.jpg" alt="Los Angeles" style="width:100%;">
+          <img src="./img/background_3.jpg" alt="About section background three" style="width:100%;">
         </div>
       </div>
     </div>
   </div>
   <!--Features-->
-  <div class="features text-center">
+  <div class="features text-center" id="features">
     <div class="container">
       <div class="row">
         <div class="col-sm-6 col-lg-3">
           <i class="fa fa-lightbulb fa-4x rounded-circle" aria-hidden="true"></i>
           <h3>Great Ideas</h3>
-          <p>Make your Idea readily available and useful to your business with a suite of data transformation,
-            analysis, visualization tools. smarter experiences for your customers </p>
+          <p>Make your Idea readily available and useful to your business with a suite of data transformation and
+            analysis </p>
         </div>
         <div class="col-sm-6 col-lg-3">
           <i class="fa fa-cog fa-4x rounded-circle"></i>
@@ -104,88 +92,88 @@
           <i class="fas fa-code fa-4x rounded-circle"></i>
           <h3>Front-End Development</h3>
           <p>Converts designs into working website pages through HTML, CSS, and Javascript
-            so that users can access and interact with that website pages through the browser.</p>
+            so that users can access and interact.</p>
         </div>
       </div>
     </div>
   </div>
   <!--overview-->
-  <div class="overview text-center">
+  <div class="overview text-center" id="overview">
     <div class="container">
       <h2> Overview</h2>
       <p> As an adept Android/Front-End Developer, I have a well-rounded skill set in test case development, honed
         talents in application
         lifecycle, SDK application development and converts designs into working website pages through HTML, CSS, and
-        Javascript. Further, I am a recognized expert in collaboration and a
-        communicative
+        Javascript. Further, I am a recognized expert in collaboration and a communicative
         collaborator. My previous roles have strengthened my capabilities in motivation and critical thinking,
-        Including
-        keen attention to detail and accuracy.</p>
+        Including keen attention to detail and accuracy.</p>
       <h5>Let's Start Today</h5>
-      <button>More</button>
     </div>
   </div>
   <!--Samples-->
-  <div class="samples text-center">
-    <div class="container">
-      <h2>Samples</h2>
-      <P>I have been involved in the entire lifecycle of Android app and Websits development, solve problems, debug apps
-        and participated in
-        new product development.</P>
-      <ul class="list-unstyled row">
-        <li data-class="all" class="active col-md">All</li>
-        <li data-class=".app" class="col-md">Android Apps</li>
-        <li data-class=".web" class="col-md">Websites</li>
-        <li data-class=".web" class="col-md"><a href="https://github.com/OmaRoiid" target="_blank">More</a></li>
-      </ul>
-    </div>
-    <div class="shuffle-images">
-      <div class="row">
-        <div class="col-sm app">
-          <img src="./img/app1.jpeg">
-          <div class="middle">
-            <div class="text"><a href="https://github.com/OmaRoiid/stratushealth_cloud" target="_blank">View</a></div>
+  <section id="samples">
+    <div class="samples text-center">
+      <div class="container">
+        <h2>Samples</h2>
+        <P>I have been involved in the entire lifecycle of Android app and Websits development, solve problems, debug
+          apps
+          and participated in
+          new product development.</P>
+        <ul class="list-unstyled row">
+          <li data-class="all" class="active col-md">All</li>
+          <li data-class=".app" class="col-md">Android Apps</li>
+          <li data-class=".web" class="col-md">Websites</li>
+          <li data-class=".web" class="col-md"><a href="https://github.com/OmaRoiid" target="_blank">More</a></li>
+        </ul>
+      </div>
+      <div class="shuffle-images">
+        <div class="row">
+          <div class="col-sm app">
+            <img src="./img/app1.jpeg" alt="stratushealth app first screen">
+            <div class="middle">
+              <div class="text"><a href="https://github.com/OmaRoiid/stratushealth_cloud" target="_blank">View</a></div>
+            </div>
+          </div>
+          <div class="col-sm app">
+            <img src="./img/app2.jpeg" alt="stratushealth app second screen">
+            <div class="middle">
+              <div class="text"><a href="https://github.com/OmaRoiid/stratushealth_cloud" target="_blank">View</a></div>
+            </div>
+          </div>
+          <div class="col-sm app">
+            <img src="./img/app3.png" alt="sa3edny app first screen">
+            <div class="middle">
+              <div class="text"><a href="https://play.google.com/store/apps/details?id=com.av.m.sa3edny"
+                  target="_blank">View</a></div>
+            </div>
+          </div>
+          <div class="col-sm app">
+            <img src="./img/app4.jpg" alt="sa3edny app second screen">
+            <div class="middle">
+              <div class="text"><a href="https://play.google.com/store/apps/details?id=com.av.m.sa3edny"
+                  target="_blank">View</a></div>
+            </div>
           </div>
         </div>
-        <div class="col-sm app">
-          <img src="./img/app2.jpeg">
-          <div class="middle">
-            <div class="text"><a href="https://github.com/OmaRoiid/stratushealth_cloud" target="_blank">View</a></div>
+        <div class="row">
+          <div class="col-sm web">
+            <img src="./img/web1.png" alt="Travel webapp screen">
+            <div class="middle">
+              <div class="text"><a href="https://github.com/OmaRoiid/TravelApp" target="_blank">View</a></div>
+            </div>
           </div>
-        </div>
-        <div class="col-sm app">
-          <img src="./img/app3.png">
-          <div class="middle">
-            <div class="text"><a href="https://play.google.com/store/apps/details?id=com.av.m.sa3edny"
-                target="_blank">View</a></div>
-          </div>
-        </div>
-        <div class="col-sm app">
-          <img src="./img/app4.jpg">
-          <div class="middle">
-            <div class="text"><a href="https://play.google.com/store/apps/details?id=com.av.m.sa3edny"
-                target="_blank">View</a></div>
+          <div class="col-sm web" alt="Travel webapp screen">
+            <img src="./img/web2.png">
+            <div class="middle">
+              <div class="text"><a href="https://github.com/OmaRoiid/UI-template" target="_blank">View</a></div>
+            </div>
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-sm web">
-          <img src="./img/web1.png">
-          <div class="middle">
-            <div class="text"><a href="https://github.com/OmaRoiid/TravelApp" target="_blank">View</a></div>
-          </div>
-        </div>
-        <div class="col-sm web">
-          <img src="./img/web2.png">
-          <div class="middle">
-            <div class="text"><a href="https://github.com/OmaRoiid/UI-template" target="_blank">View</a></div>
-          </div>
-        </div>
-      </div>
     </div>
-  </div>
+  </section>
   <!--Blogs-->
-  <div class="blogs text-center">
+  <div class="blogs text-center" id="blog">
     <div class="container">
       <h2>Honors & Blogs</h2>
       <P class="quote">The best advice I ever got was that knowledge is power and to keep reading.</P>
@@ -198,9 +186,7 @@
               Nanodegree offers a clean road for build and develops a variety of responsive websites and
               applications
               and how Javascript communicate with the HTML Document and connect web applications to backend server
-              data
-              using
-              JavaScript.</p>
+              data using JavaScript.</p>
             <a href="https://graduation.udacity.com/confirm/F9DTQTA" target="_blank" class="btn btn-primary">View</a>
           </div>
         </div>
@@ -219,17 +205,102 @@
       </div>
     </div>
   </div>
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
+  <!--Contact-me-->
+  <section>
+    <div class="contact-me" id="contact">
+      <div class="container">
+        <h2 class="text-center">Contact Me</h2>
+        <div class="row">
+          <div class="social col-md">
+            <div class="row">
+              <div class="my-pic col-md">
+                <img src="./img/OmarSalem.jpg" class="rounded-circle" alt="Omar Salem">
+              </div>
+              <div class="info col-md">
+                <h4>Omar Salem</h4>
+                <p> Android/Front-End Developer</p>
+                <p class="qoute">“ Tell me and I Forget, Teach me and I may remember, Involve me and I Learn.“ -BENJAMIN
+                  FRANKLIN</p>
+              </div>
+            </div>
+            <div class="social-icons">
+              <h5 class="text-center">I'm A Social</h5>
+              <ul class="icons">
+                <li><a href="https://www.facebook.com/omar.m.salem.9" target="_blank"><i
+                      class="fab fa-facebook-square"></i></a></li>
+                <li><a href="https://twitter.com/Omar_bn_Salem" target="_blank"><i
+                      class="fab fa-twitter-square"></i></a>
+                </li>
+                <li><a href="https://www.linkedin.com/in/OmarMahmmoudSalem/" target="_blank"><i
+                      class="fab fa-linkedin"></i></a></li>
+                <li><a href="https://github.com/OmaRoiid" target="_blank"><i class="fab fa-github"></i></a></li>
+                <li><a href="https://medium.com/@omarmahmoudsalem/" target="_blank"><i class="fab fa-medium"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="mail col-md">
+            <form method="post" action="mailto:omarsalem977@gmail.com">
+              <input class="form-control" type="text" name="name" placeholder="Enter Your Name !!" required=""><br>
+              <input class="form-control" type="email" name="email" placeholder="Enter Your Email !!" required=""><br>
+              <textarea class="form-control" name="message" placeholder="Your message 😊" rows="3" required=""
+                style="resize: none;"></textarea><br>
+              <input class="submit" type="submit" name="" value="Send">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--footer-->
+  <!-- Footer -->
+  <footer class="page-footer font-small mdb-color pt-4">
+    <div class="container text-center">
+      <div class="row text-center text-md-left mt-3 pb-3">
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h6 class="text-uppercase mb-4 font-weight-bold">Useful links</h6>
+          <p>
+            <a href="#overview">ABOUT</a>
+          </p>
+          <p>
+            <a href="#samples">SAMPLES</a>
+          </p>
+          <p>
+            <a href="#blog">HONORS & BLOGS</a>
+          </p>
+        </div>
+        <hr class="w-100 clearfix d-md-none" style="color: #ffffff;">
+
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h6 class="text-uppercase mb-4 font-weight-bold">INFO</h6>
+          <p>
+            <i class="fas fa-home mr-3"></i>Cairo,Egypt</p>
+          <p>
+            <i class="fas fa-envelope mr-3"></i> omarsalem977@gmail.com</p>
+          <p>
+            <i class="fas fa-phone mr-3"></i> + 201100634348</p>
+        </div>
+      </div>
+      <hr style="color: #ffffff;">
+      <div class="row">
+        <div class="col-md">
+          <!--Copyright-->
+          <p class="text-center">© 2020 Copyright: <span>Omar Salem</span>
+          </p>
+        </div>
+      </div>
+      <!-- Grid row -->
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
     integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
     crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
     integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
     crossorigin="anonymous"></script>
-  <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" data-auto-a11y="true"></script>
   <script src="./js/bootstrap.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" data-auto-a11y="true"></script>
   <script src="./js/main.js"></script>
 </body>
 
