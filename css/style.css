@@ -316,7 +316,7 @@ height: 170px;
    text-align: start;
 }
 .contact-me .container .social .info p{
-      color: #6a6a6a;
+    color: #6a6a6a;
     margin-bottom: 10px;
     text-align: start;
 }
@@ -332,10 +332,9 @@ height: 170px;
     margin-top: 30px;
 }
 .contact-me .container .social-icons  ul{
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 10px 5px;
     list-style-type: none;
-   text-align: center;
+    text-align: center;
     padding: 0;
 
 }
@@ -374,6 +373,7 @@ height: 170px;
      height: 45px;
  }
  .mail form .submit{
+     text-align: center;
     width: 100%;
     background: transparent;
     border: none;
@@ -430,6 +430,12 @@ footer span {
 .samples .container h2 {
     font-size: 35px; 
 }
+.samples  ul{
+    justify-content: center;
+}
+.samples ul li {
+    width: 80%;
+}
 .overview .container p {
     font-size: 18px;
     line-height: 1.5;
@@ -458,6 +464,8 @@ height: 140px;
 .contact-me .container .social .info p{
     margin-bottom: 10px;
     text-align: center;
+     margin-left: 5px;
+    margin-right: 5;
 }
     .contact-me .container .social .info{
             padding: 0;
@@ -465,10 +473,14 @@ height: 140px;
     margin: 0;
     }
     .contact-me .container .social-icons {
-    padding:  10 0;
+    padding:  5 0;
 }
 .contact-me .container .social-icons ul li {
-    margin-left: 5px;
+    margin: 0;
+    display: inline-block;
+    border-radius: 60px;
+    box-shadow: 0px 0px 2px #08526d;
+    padding: 0.5em 0.6em;
 }
 
 }

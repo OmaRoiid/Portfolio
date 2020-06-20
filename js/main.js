@@ -46,3 +46,16 @@ $("footer  a").on('click', function (e) {
     }, 700)
 
 });
+//Sending email fun 
+function sendMail() {
+    Email.send({
+        SecureToken: "C973D7AD-F097-4B95-91F4-40ABC5567812",
+        To: 'omarsalem977@gmail.com',
+        From: document.getElementById("email").value,
+        Subject: "Hi I'm" + document.getElementById("name").value + " let's work together",
+        Body: document.getElementById("message").value
+    }).then(
+        message => alert("Mail sent successfully !!")
+    );
+}
+
