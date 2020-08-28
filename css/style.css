@@ -1,10 +1,13 @@
-/*
-mainColor:#08526d
-seconedColor:#ec1c23
-*/
+
+@import url("https://fonts.googleapis.com/css?family=Oswald|Raleway&display=swap");
+html{
+  font-family: 'Raleway', sans-serif;
+  color: #555;
+}
 /* Start Upper Bar */ 
 h1,h2,h3,h4,h5,h6{
     color: #08526d;
+    
 } 
  body {
       position: relative; 
@@ -162,7 +165,7 @@ h1,h2,h3,h4,h5,h6{
 }
 .samples .container p{
     font-size: 18px;
-    line-height: 2;
+    line-height: 1.7;
     width: 80%;
     margin: 0 auto 20px;
     color: #6a6a6a;
@@ -421,8 +424,8 @@ footer span {
 @media(max-width: 1000px)
 {
    .slider .carousel-inner h1 {
-       margin-top: 10px;
-    font-size: 35;
+    margin-top: 25px;
+    font-size: 28px;
 }
 .overview .container h2 {
    font-size: 35;
@@ -437,8 +440,8 @@ footer span {
     width: 80%;
 }
 .overview .container p {
-    font-size: 18px;
-    line-height: 1.5;
+    font-size: 17px;
+    line-height: 1.7;
 
 }
 .blogs .container h2 {
